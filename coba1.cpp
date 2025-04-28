@@ -23,5 +23,6 @@ class Planet{
 };
 
 int main(){
-    Planet 
+    Planet bumi;
+    bumi.inputData();
 }
