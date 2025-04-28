@@ -12,6 +12,9 @@ class Planet{
             << ", ukuranku : " << diameter 
             << ", gravitasiku : " << gravitasi<< endl;
         }
+        void setData(float g){
+            gravitasi = g;
+        }
 };
 
 int main(){
