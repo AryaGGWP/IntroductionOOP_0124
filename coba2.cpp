@@ -8,12 +8,19 @@ class persegiPanjang{
     float luas(){
         return panjang*lebar;
     }
+    void inputData(){
+        cout << "Masukkan panjang : "; cin >> panjang;
+        cout << "Masukkan lebar : "; cin >> lebar;
+    }
+
+    void displayData(){
+        cout << "Luas persegi panjang adalah : " << luas() << endl;
+    }
 };
 
 int main(){
     persegiPanjang pp;
-    cout << "Masukkan panjang persegi panjang : "; cin >> pp.panjang;
-    cout << "Masukkan lebar persegi panjang : "; cin >> pp.lebar;
-    cout << "\n-----Hasil Perhitungan-----";
-    cout << "Luas persegi panjang adalah : " << pp.luas() << endl;
+    pp.inputData();
+    cout << "\n-----Hasil Perhitungan-----\n";
+    pp.displayData();
 }
