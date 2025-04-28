@@ -12,8 +12,13 @@ class Planet{
             << ", ukuranku : " << diameter 
             << ", gravitasiku : " << gravitasi<< endl;
         }
-        void setData(float g){
-            gravitasi = g;
+        void inputData(){
+            cout << "Masukkan nama planet : ";
+            cin >> nama;
+            cout << "Masukkan diameter planet : ";
+            cin >> diameter;
+            cout << "Masukkan gravitasi planet : ";
+            cin >> gravitasi;
         }
 };
 
