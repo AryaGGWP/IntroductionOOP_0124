@@ -25,4 +25,6 @@ class Planet{
 int main(){
     Planet bumi;
     bumi.inputData();
+    cout << "Nama planet adalah " << bumi.nama << endl;
+    cout << "Ukuran planet adalah" << bumi.diameter << endl;
 }
