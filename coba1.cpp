@@ -8,9 +8,7 @@ class Planet{
         string nama;
         float diameter;
         void displayData(){
-            cout << "Halo aku planet : " << nama 
-            << ", ukuranku : " << diameter 
-            << ", gravitasiku : " << gravitasi<< endl;
+            cout << ", gravitasiku " << gravitasi << endl;
         }
         void inputData(){
             cout << "Masukkan nama planet : ";
@@ -25,6 +23,7 @@ class Planet{
 int main(){
     Planet bumi;
     bumi.inputData();
-    cout << "Nama planet adalah " << bumi.nama << endl;
-    cout << "Ukuran planet adalah" << bumi.diameter << endl;
+    cout << "Halo aku planet " << bumi.nama << endl;
+    cout << "ukuranku adalah sekitar " << bumi.diameter << endl;
+    bumi.displayData();
 }
