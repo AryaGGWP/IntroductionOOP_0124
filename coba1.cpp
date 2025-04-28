@@ -23,5 +23,5 @@ class Planet{
 };
 
 int main(){
-
+    Planet 
 }
